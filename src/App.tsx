@@ -1001,54 +1001,6 @@ const formatFileSize = (bytes: number) => {
           </div>
         </section>
 
-        {/* Mobile AR Section */}
-        <section className="mobile-ar-section">
-          <div className="container">
-            <h2>Mobile AR Experience</h2>
-            <p className="section-subtitle">Upload CAD files directly from your phone or capture objects with your camera</p>
-            
-            <div className="mobile-ar-content">
-              <div className="mobile-description">
-                <h3>📱 Upload Files from Your Phone</h3>
-                <p>Use your smartphone to easily upload CAD files by selecting from phone storage or taking pictures with your camera. Our platform features smart detection of objects and optimizes them for AR experiences.</p>
-                
-                <div className="mobile-instructions">
-                  <h4>📸 How to Take Clear Pictures for AR:</h4>
-                  <ol>
-                    <li><strong>Good Lighting:</strong> Take photos in bright, even lighting. Avoid shadows and harsh overhead lights.</li>
-                    <li><strong>Multiple Angles:</strong> Capture the object from 4-6 different angles (front, back, sides, top, bottom).</li>
-                    <li><strong>Stable Shots:</strong> Hold your phone steady and use burst mode if available. Avoid blurry images.</li>
-                    <li><strong>Plain Background:</strong> Use a white or neutral background to help our AI detect the object edges.</li>
-                    <li><strong>Fill the Frame:</strong> Make sure the object takes up most of the photo frame for better detail capture.</li>
-                    <li><strong>Avoid Reflections:</strong> If photographing shiny objects, angle your phone to minimize reflections.</li>
-                  </ol>
-                </div>
-                
-                <div className="mobile-features">
-                  <p><strong>✨ Smart Features:</strong></p>
-                  <ul>
-                    <li>AI-powered object detection and 3D reconstruction</li>
-                    <li>Automatic background removal</li>
-                    <li>Real-time optimization for AR viewing</li>
-                    <li>Companion app with device sync (1-device limit on free accounts)</li>
-                  </ul>
-                </div>
-              </div>
-              
-              <div className="mobile-actions">
-                <ModernButton 
-                  variant="primary"
-                  size="lg"
-                  icon={<Upload className="w-5 h-5" />}
-                  onClick={() => setShowMobileUpload(true)}
-                  className="mobile-button"
-                >
-                  Try Mobile Upload
-                </ModernButton>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Call to Action */}
         <section className="cta-section">
