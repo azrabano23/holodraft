@@ -76,7 +76,8 @@ See `DEPLOYMENT_INSTRUCTIONS.md` for the Vercel deployment path and `unity/UNITY
 ## Repository layout
 
 ```
-src/                 React + TypeScript web app
+src/                 React + TypeScript web app (main CRA application)
+website/             HoloDraft landing/auth site (Vite + React + Tailwind, Supabase auth)
 backend/             Express server + STL→mesh conversion (Python)
 public/              static assets + prebuilt Unity WebGL (unity-builds/)
 unity/               Unity CAD editor source

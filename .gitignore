@@ -139,3 +139,8 @@ ExportedObj/
 ehthumbs.db
 Thumbs.db
 .vercel
+
+# Landing site (website/)
+website/node_modules/
+website/.env
+website/dist/
