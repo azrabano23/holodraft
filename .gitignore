@@ -37,7 +37,9 @@ public/unity-builds/webgl/Build/
 # Large Unity data files (exceed GitHub limits)
 Data/
 Library/
-Assets/
+# Note: unity/Assets/ source (C# scripts/scenes) IS committed; only a large
+# root-level Assets/ (binary models) would be ignored.
+/Assets/
 *.assets
 *.a
 
