@@ -90,3 +90,4 @@ supabase/            Postgres schema + SQL integration
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
